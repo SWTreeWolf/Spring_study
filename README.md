@@ -1,21 +1,4 @@
-<<<<<<< HEAD
-## 진행사항
 
-1. DB : 각 테이블 별로 만들어야 됨 (예외 : 예약)
-  - 테이블을 우선시 완성
-  - DTO도 만들어야 됨
-  
-2. 게시판 분류 : 공지사항, 이용문의(Q&A), 예약, 이용후기
-  - 공지사항 : 리스트게시판 (관리자만 작성 될 것)
-  - 이용문의(Q&A) : 리스트게시판 (계층형 게시판으로 할 것 - 현재 배우는 단위) 
-  - 이용후기 : 갤러리게시판 ( 답글은 패스, 댓글만 집어넣을 것 )
-  - 예약 : 1) 펜션예약시스템 2) 폼메일게시판 * 별도로, 관리자가 예약 된 부분확인할 수 있는 게시판(리스트게시판)
-
-3. 레이아웃 parse
-
-### 되도록이면 master를 건들지 마시고, branch하여 사용해주시기 바랍니다.
-
-=======
 ### 사용방법 참조 사이트 입니다.
 >>>>>>> 2102f4d763c17e4b904bf83ddadf8d4636e58d65
 > github & eclipse 하는법 : http://gasaesososo.tistory.com/9?category=726951
@@ -26,8 +9,6 @@
 
 > git 사용방법 : https://backlog.com/git-tutorial/kr/
 
-<<<<<<< HEAD
-> 펜션예약시스템 참고자료 : https://m.blog.naver.com/PostView.nhn?blogId=javaking75&logNo=220123384251&proxyReferer=https%3A%2F%2Fwww.google.com%2F
 
 =======
 >>>>>>> 2102f4d763c17e4b904bf83ddadf8d4636e58d65
@@ -70,19 +51,4 @@
 따라서 스타트업 같은 작은 규모에서라도 백엔드와 프론트엔드 정도는 따로 채용하는 게 조금 나을 것이라는 말을 하고 싶어서 이런 글을 이렇게 길게 쓰다니 아이고 힘들어. 게다가 한 마디 덧붙이자면, 웹 디자이너에게 코더, UI/UX 역할까지 맡으라며 구인 공고 내는 경우도 아주 많이 봤는데, 구해지면 개별적으로 연락 좀 주시기 바란다. 그런 역할을 모두 훌륭하게 수행하는 사람들은 리스트에 올려놓고 나중에 프로젝트 할 때 나도 좀 땡겨오게.
 
 > 출처 : https://okky.kr/article/365625
-
-<<<<<<< HEAD
-<hr>
-
-### 계획
-
-#### DB
-![대략적임](./temp_images/DB.png)
-
-> layout : http://flip.dorelan.co.kr (flip), http://bsidepoolvilla.com (B-side poolvilla)
-
-> Board 출처 : https://m.blog.naver.com/kjhjun/220868708278
-
-=======
->>>>>>> 2102f4d763c17e4b904bf83ddadf8d4636e58d65
 
