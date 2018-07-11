@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 진행사항
 
 1. DB : 각 테이블 별로 만들어야 됨 (예외 : 예약)
@@ -14,6 +15,9 @@
 
 ### 되도록이면 master를 건들지 마시고, branch하여 사용해주시기 바랍니다.
 
+=======
+### 사용방법 참조 사이트 입니다.
+>>>>>>> 2102f4d763c17e4b904bf83ddadf8d4636e58d65
 > github & eclipse 하는법 : http://gasaesososo.tistory.com/9?category=726951
 
 > github 팀원 초대 : http://www.itpaper.co.kr/github%EC%97%90-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1%ED%95%98%EA%B3%A0-%ED%8C%80%EC%9B%90-%EC%B4%88%EB%8C%80%ED%95%98%EA%B8%B0/
@@ -22,8 +26,11 @@
 
 > git 사용방법 : https://backlog.com/git-tutorial/kr/
 
+<<<<<<< HEAD
 > 펜션예약시스템 참고자료 : https://m.blog.naver.com/PostView.nhn?blogId=javaking75&logNo=220123384251&proxyReferer=https%3A%2F%2Fwww.google.com%2F
 
+=======
+>>>>>>> 2102f4d763c17e4b904bf83ddadf8d4636e58d65
 > git 협업: https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/
 
 ## 웹 개발자 직군 정리
@@ -64,6 +71,7 @@
 
 > 출처 : https://okky.kr/article/365625
 
+<<<<<<< HEAD
 <hr>
 
 ### 계획
@@ -75,4 +83,6 @@
 
 > Board 출처 : https://m.blog.naver.com/kjhjun/220868708278
 
+=======
+>>>>>>> 2102f4d763c17e4b904bf83ddadf8d4636e58d65
 

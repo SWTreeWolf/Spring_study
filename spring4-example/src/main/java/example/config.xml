@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- di(dependency Injection) DI는 Spring에서 새롭게 지원하는 IoC의 한 형태로써 각 계층 사이, 
+		각 Class 사이에 필요로 하는 의존관계가 있다면 이를 컨테이너가 자동적으로 연결시켜 주는 것으로 각 Class 사이의 의존관계를 
+		Bean 설정 정보를 바탕으로 컨테이너가 자동적으로 연결해 주는 것이다. -->
+
+	<!-- constructor-injection Class 사이의 의존관계를 연결시키기 위해 생성자를 이용하는 방법. -->
+	<bean id="dice" class="example.Dice">
+		<constructor-arg>
+			<value>6</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>상아</value>
+		</constructor-arg>
+	</bean>
+	
+	<!-- Setter Injection : Class 사이의 의존관계를 연결시키기 위해 Setter 메소드를 이용하는 방법. -->
+	<bean id="play" class="example.Player">
+		<constructor-arg name="dice" ref="dice" />
+	</bean>
+	
+	
+	<!-- Method Injection : Method Injection은 Setter Injection과 
+		Constructor Injection이 가지고 있는 한계점을 극복하기 위하여 지원하고 있는 DI의 한 종류다.
+		Singleton 인스턴스와 Non Singleton 인스턴스의 의존관계를 연결할 필요가 있을 때 사용한다. -->
+	<bean id="prototypeBean" class="example.PrototypeBean" scope="prototype">
+		<property name="message" value="Test Message"/>
+	</bean>
+	
+	<bean id="singletonBean" class="example.SingletonBean">
+		<property name="prototypeBean" ref="prototypeBean" />
+	</bean>
+</beans>
