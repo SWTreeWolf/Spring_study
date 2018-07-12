@@ -1,3 +1,4 @@
+
 ### 사용방법 참조 사이트 입니다.
 > github & eclipse 하는법 : http://gasaesososo.tistory.com/9?category=726951
 
@@ -7,6 +8,8 @@
 
 > git 사용방법 : https://backlog.com/git-tutorial/kr/
 
+
+=======
 > git 협업: https://milooy.wordpress.com/2017/06/21/working-together-with-github-tutorial/
 
 ## 웹 개발자 직군 정리
@@ -46,5 +49,4 @@
 따라서 스타트업 같은 작은 규모에서라도 백엔드와 프론트엔드 정도는 따로 채용하는 게 조금 나을 것이라는 말을 하고 싶어서 이런 글을 이렇게 길게 쓰다니 아이고 힘들어. 게다가 한 마디 덧붙이자면, 웹 디자이너에게 코더, UI/UX 역할까지 맡으라며 구인 공고 내는 경우도 아주 많이 봤는데, 구해지면 개별적으로 연락 좀 주시기 바란다. 그런 역할을 모두 훌륭하게 수행하는 사람들은 리스트에 올려놓고 나중에 프로젝트 할 때 나도 좀 땡겨오게.
 
 > 출처 : https://okky.kr/article/365625
-
 
