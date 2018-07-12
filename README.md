@@ -1,3 +1,9 @@
+### Import 폴더 내용 입니다.
+단순히 카카오페이를 통하여 연결하는 내용입니다. 별도로 추가해야 되는 내용은 다음과 같습니다.
+  1. <select>를 통하여 option 값을 줌
+  2. 금액설정
+  3. 구매인 정보 기입
+
 
 ### 사용방법 참조 사이트 입니다.
 > github & eclipse 하는법 : http://gasaesososo.tistory.com/9?category=726951
