@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- DI(dependecy Inject)를 통하여 bean 객체를 추가 -->
+	<!-- <bean id="tv" class="class03.polymorphism.SamsungTV" init-method="initMethod"
+	destroy-method="destoryMethod"/> -->
+	
+	<!-- <bean id="tv" class="class03.polymorphism.SamsungTV" scope="singleton"/> -->
+	<bean id="tv" class="class03.polymorphism.SamsungTV" scope="prototype"/>
+	<!-- 57p. beans import -->
+	<beans>
+		<import resource="context-datasource.xml"/>
+		<import resource="context-transaction.xml"/>
+	</beans>
+</beans>
