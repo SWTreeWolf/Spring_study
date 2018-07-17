@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+	
+	
+	<!-- 어노테이션 선언 -->
+	<context:component-scan base-package="class05.polymorphism"></context:component-scan>
+	
+	<!-- <bean id="apple" class="class05.polymorphism.AppleSpeaker" />
+	<bean id="sony" class="class05.polymorphism.SonySpeaker" />
+	
+	<bean id="tv" class="class05.polymorphism.SamsungTV">
+		<property name="speaker" ref="apple" />
+		<property name="price" ref="27000000" />
+	</bean> -->
+	
+</beans>
