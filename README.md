@@ -5,6 +5,10 @@
   3. 구매인 정보 기입
 
 
+### openapi 압축폴더
+현재 공공데이터 및 네아로 관련 내용이며, 활용방법 사이트는 다음과 같습니다.
+> 참조사이트 : http://songc92.tistory.com/41
+
 ### 사용방법 참조 사이트 입니다.
 
 > 지옥에서 온 git (생활코딩) : https://opentutorials.org/course/1492
